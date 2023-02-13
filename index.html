@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="mainDiv">
+        <div>
+            <button onclick="getNumber(9)" id="nine">9</button>
+            <button onclick="getNumber(8)" id="eight" >8</button>
+            <button onclick="getNumber(7)"  id="seven">7</button>
+            <button onclick="getNumber('/')"  id="divide">%</button>
+        </div>
+        
+        <div>
+            <button onclick="getNumber(4)" id="four" >4</button>
+            <button onclick="getNumber(5)" id="five" >5</button>
+            <button onclick="getNumber(6)" id="six" >6</button>
+            <button onclick="getNumber('*')" id="into" >*</button>
+        </div>
+        <div>
+            <button onclick="getNumber(1)" id="one" >1</button>
+            <button onclick="getNumber(2)" id="two" >2</button>
+            <button onclick="getNumber(3)" id="three" >3</button>
+            <button onclick="getNumber('-')" id="dash" >-</button>
+        </div>
+        <div>
+            <button onclick="getNumber(0)" id="zero" >0</button>
+            <button onclick="getNumber('.')" id="dot" >.</button>
+            <button id ="cal" onclick="cal()">=</button>
+            <button  onclick="getNumber('+')" id="+" >+</button>
+        </div>
+    </div>
+
+    <input id="show" type="text" placeholder="Click here">
+</body>
+</html>
+
+<script src="script.js"></script>

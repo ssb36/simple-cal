@@ -1,0 +1,13 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+.mainDiv>div>button{
+
+    width: 16%;
+    height: 3rem;
+    margin: 2rem;
+}
+.show[type=text]{
+    text-align: right;
+}
